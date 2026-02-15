@@ -1,0 +1,137 @@
+.all_font_style {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* header area nave site */
+.the_all_sit {
+    margin: 0;
+    padding: 0;
+}
+
+.banar_content-site2 {
+    background-image: url("/asses/developer.png"), url("/asses/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 25px 0 0 23px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.text_1a {
+    font-size: 48;
+    font-weight: 800;
+    color: #181818;
+}
+
+.style_1le {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+.but_all_1 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6E0A;
+    color: wheat;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+}
+
+/* banar section area is hader */
+.banar_area {
+    display: flex;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.text_content_banar {
+    margin: 0 660px 0 190px;
+}
+
+.greadent_1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banar_name1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+}
+
+.banar_text1 {
+    font-size: 18px;
+    color: #757575;
+}
+
+.hardy_img1 {
+    width: 500px;
+}
+
+.area-gap {
+    margin-left: 20px;
+}
+
+/* ths all class site area */
+.mi_1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.code_sit {
+    background-color: #FFF8F3;
+}
+
+/* the main area of the site */
+.leaout_1 {
+    padding: 109px 156px;
+    margin-top: 130px;
+    gap: 20px;
+}
+
+.main_ara1 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.paragrap_1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.about_items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.itme_description {
+    font-weight: 600;
+}
