@@ -112,12 +112,16 @@ nav li a {
 /* the main area of the site */
 .leaout_1 {
     padding: 109px 156px;
-    margin-top: 130px;
     gap: 20px;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 .main_ara1 {
     max-width: 1140px;
+
     margin: 0 auto;
 }
 
@@ -134,4 +138,61 @@ nav li a {
 
 .itme_description {
     font-weight: 600;
+}
+
+.text-area1 {
+    margin-bottom: 20px;
+}
+
+.text-site1 {
+    margin-bottom: 55px;
+}
+
+/* this area is the my scil site */
+.scile {
+    display: flex;
+    gap: 24px;
+
+}
+
+.sciles_all1 {
+    padding: 104px 33px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* this is the sit of the resume area */
+.resuma_det1 {
+    display: flex;
+    gap: 35px;
+}
+
+.title_colom2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    height: 10px;
+}
+
+.experence_resume {
+    width: 511px;
+}
+
+.resume_ara3sit {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    height: 15px;
+}
+
+.text_area {
+    font-size: 20px;
+    color: #757575;
+}
+.resuma_det1 hr{
+margin: 30px 5px;
+}
+.but_contenar{
+    text-align: center;
+    margin-top: 50px;
 }
