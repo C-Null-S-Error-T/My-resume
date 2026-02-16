@@ -13,7 +13,7 @@
 }
 
 .banar_content-site2 {
-    background-image: url("/asses/developer.png"), url("/asses/header_bg.png");
+    background-image: url("../asses/developer.png"), url("../asses/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
