@@ -188,29 +188,38 @@ main section {
     font-size: 20px;
     color: #757575;
 }
-.resuma_det1 hr{
-margin: 30px 5px;
+
+.resuma_det1 hr {
+    margin: 30px 5px;
 }
-.but_contenar{
+
+.but_contenar {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer site area of lest content */
-.new_site{
+.new_site {
     margin-top: 200px;
 }
-.footer_content_all_site{
+
+.footer_content_all_site {
     display: flex;
     gap: 150px;
     padding: 130px 225px;
 }
-.footer_content1{
+
+.footer_content1 {
     width: 608px;
 }
-.footer_content2{
+
+.footer_content2 {
     width: 600px;
 }
-footer input[type="text"], footer input[type="email"],footer textarea{
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
     height: 64px;
     border-radius: 5px;
     background-color: white;
