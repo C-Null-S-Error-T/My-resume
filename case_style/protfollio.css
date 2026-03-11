@@ -144,10 +144,17 @@ main section {
 }
 
 .text-site1 {
-    margin-bottom: 55px;
+    margin-bottom: 25px;
 }
 
 /* this area is the my scil site */
+@media screen and (max-width:576px) {
+    .scile {
+        flex-direction: column;
+    }
+
+}
+
 .scile {
     display: flex;
     gap: 24px;
@@ -164,6 +171,17 @@ main section {
 .resuma_det1 {
     display: flex;
     gap: 35px;
+}
+
+@media screen and (max-width:576px) {
+    .resuma_det1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .detelse_resume{
+        width: 100%;
+    }
+
 }
 
 .title_colom2 {
@@ -209,14 +227,28 @@ main section {
     padding: 130px 225px;
 }
 
-.footer_content1 {
-    width: 608px;
+/* this is medaia cowary */
+@media screen and (max-width:576px) {
+    .new_site {
+        margin-top: 90px;
+    }
+
+    .footer_content_all_site {
+        flex-direction: column;
+        padding: 20px;
+    }
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 60px);
+        /* width: 30px; */
+    }
+
 }
 
-.footer_content2 {
-    width: 600px;
+.the-ptagin{
+    width: 77%;
 }
-
 footer input[type="text"],
 footer input[type="email"],
 footer textarea {
@@ -225,7 +257,12 @@ footer textarea {
     background-color: white;
     display: block;
     width: 100%;
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin-bottom: 24px;
     border: none;
+}
+
+/* th start of responsive arrea */
+.hide {
+    display: none;
 }
